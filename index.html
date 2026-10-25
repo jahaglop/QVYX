@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="QVYX 3D Studio — 3D-печать, 3D-сканирование, реверс-инжиниринг и кастомные продукты в Душанбе. Печатаем модели из STL от одной штуки.">
+  <title>QVYX 3D Studio — Материализуем ваши идеи</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="QVYX 3D Studio — главная"><img src="assets/qvyx-logo.png" alt="QVYX 3D Studio"></a>
+    <nav class="desktop-nav" aria-label="Главная навигация">
+      <a href="index.html" aria-current="page">Главная</a>
+      <a href="products.html">Продукция</a>
+      <a href="cases.html">Наши работы</a>
+      <a href="nfc.html">NFC-визитка</a>
+    </nav>
+    <a class="button button-black header-cta" href="#contacts">Связаться с нами <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+  </header>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Мобильная навигация" hidden>
+    <a href="index.html" aria-current="page">Главная</a>
+    <a href="products.html">Продукция</a>
+    <a href="cases.html">Наши работы</a>
+    <a href="nfc.html">NFC-визитка</a>
+    <a class="button button-black" href="#contacts">Связаться с нами <span aria-hidden="true">↗</span></a>
+  </nav>
+
+  <main id="main">
+    <!-- Главная: только первый экран, услуги и STL. Кейсы и статистика вынесены на cases.html. -->
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> 3D-ПЕЧАТЬ · ИНЖЕНЕРИЯ · ДУШАНБЕ</p>
+        <h1>ИДЕИ.<br>ДЕТАЛИ.<br><span>ПРОИЗВОДСТВО.</span></h1>
+        <div class="hero-bottom">
+          <p class="hero-desc">Изготавливаем детали, корпуса и уникальные продукты на заказ — даже в единственном экземпляре. Превращаем цифровые модели и ваши идеи в реальные вещи.</p>
+          <a class="button button-black" href="#contacts">Обсудить задачу <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-footline"><span>QVYX 3D STUDIO</span><span>УЛ. БОХТАР · ДУШАНБЕ</span><span>ОТ ИДЕИ ДО ФИЗИЧЕСКОЙ ДЕТАЛИ</span></div>
+    </section>
+
+    <section class="section section-wrap" id="services">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ЧТО ДЕЛАЕМ <span class="section-index">УСЛУГИ QVYX</span></p>
+        <h2>ОДНА СТУДИЯ.<br><span>МНОГО ВОЗМОЖНОСТЕЙ.</span></h2>
+        <p class="heading-note">От сломанной детали, которую уже не найти, до идеи, которой ещё нет в реальности.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card"><span class="service-no">01</span><h3>3D-ПЕЧАТЬ</h3><p>Корпуса, крепления, механизмы, прототипы и кастомные изделия. Производим от одной штуки — без обязательного заказа на сотни единиц.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-card"><span class="service-no">02</span><h3>3D-СКАНИРОВАНИЕ</h3><p>Переносим физические объекты в цифровую модель, чтобы их можно было восстановить, изменить или изготовить заново.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-card"><span class="service-no">03</span><h3>РЕВЕРС-ИНЖИНИРИНГ</h3><p>Восстанавливаем сломанные, редкие и снятые с производства детали, даже если оригинальные чертежи потеряны.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+        <article class="service-card"><span class="service-no">04</span><h3>МЕРЧ И NFC</h3><p>Брендированные топперы, именные брелоки, сувениры, интерактивные NFC-визитки и стенды для бизнеса.</p><span class="service-arrow" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="stl-section" id="stl">
+      <div class="stl-inner section-wrap">
+        <div class="stl-copy">
+          <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> ЕСТЬ STL-ФАЙЛ? ОТЛИЧНО.</p>
+          <h2>НАШЛИ В ИНТЕРНЕТЕ.<br><span>НАПЕЧАТАЕМ ЗДЕСЬ.</span></h2>
+          <p>Нашли в интернете нужную вещь, скачали STL или сохранили 3D-модель? Пришлите файл — мы проверим, можно ли его напечатать, подскажем по материалу и изготовим деталь в Душанбе.</p>
+          <p class="stl-small">Работаем с STL, а для некоторых задач — с OBJ, 3MF и инженерными форматами. Возможность печати зависит от размера, геометрии и требований к прочности.</p>
+          <a class="button button-white" href="#contacts">Обсудить печать файла <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="stl-graphic" aria-label="Цифровая модель превращается в деталь">
+          <div class="file-mark">.STL</div><div class="file-lines"><span></span><span></span><span></span></div>
+          <div class="file-bottom"><span>ФАЙЛ → ДЕТАЛЬ</span><span>QVYX / 3D</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CONTACTS: replace the placeholder links/text below with official QVYX contacts. -->
+  <section class="contact-band" id="contacts">
+    <h2>ЕСТЬ ЗАДАЧА?<br>ДАВАЙТЕ ОБСУДИМ.</h2>
+    <div class="contact-grid">
+      <div class="contact-item"><span>TELEGRAM</span><!-- contact1: telegram --><a href="https://t.me/QVYX3D" target="_blank" rel="noopener">Telegram↗</a><small>Быстро ответим на вопросы</small></div>
+      <div class="contact-item"><span>WHATSAPP</span><!-- contact2: whatsapp --><a href="https://wa.me/992918813331" target="_blank" rel="noopener">WhatsApp↗</a><small>Можно обсудить заказ и сроки</small></div>
+      <div class="contact-item"><span>ТЕЛЕФОН</span><!-- contact3: phone --><a href="tel:+992918813331">Номер↗</a><small>Позвоните нам напрямую</small></div>
+      <div class="contact-item"><span>АДРЕС</span><!-- contact4: address --><address>Душанбе, ул. Бохтар</address><small>За Парламентом</small></div>
+      <div class="contact-item"><span>EMAIL</span><!-- contact5: email --><a href="mailto:dno65221@gmail.com">Почта↗</a><small>Для файлов и подробных запросов</small></div>
+    </div>
+  </section>
+  <footer class="site-footer"><a href="index.html" class="footer-brand">QVYX 3D STUDIO</a><span>МАТЕРИАЛИЗУЕМ ВАШИ ИДЕИ</span><a href="#top">НАВЕРХ ↑</a><small>© <span data-current-year></span> QVYX 3D Studio</small></footer>
+</body>
+</html>
